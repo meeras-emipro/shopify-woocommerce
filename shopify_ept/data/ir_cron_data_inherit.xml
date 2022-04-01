@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <function model="ir.cron" name="update_existing_cron_for_shopify_ept"/>
+        <!--Added below function to set tip product in the existing instance.-->
+        <function model="shopify.instance.ept" name="set_default_tip_product_in_existing_instance"/>
+
+    </data>
+</odoo>

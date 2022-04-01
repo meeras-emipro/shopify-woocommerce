@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <function model="ir.cron" name="update_existing_cron_for_woocommerce_ept"/>
+    </data>
+</odoo>
